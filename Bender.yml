@@ -7,8 +7,8 @@ package:
     - "Codex <codex@openai.com>"
 
 dependencies:
-  axi_slice: { git: "https://github.com/chorus96/reg2axi.git", version: 1.0.6 }
-  axi_slice: { git: "https://github.com/chorus96/axi.git", version: 0.40.0 }
+  reg2axi: { git: "https://github.com/chorus96/reg2axi.git", version: 1.0.6 }
+  axi: { git: "https://github.com/chorus96/axi.git", version: 0.40.0 }
 
 sources:
   # Source files grouped in levels. Files in level 0 have no dependencies on files in this
